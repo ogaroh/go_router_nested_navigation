@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:nested_navigation_gorouter_example/core/router/router.dart';
+import 'package:nested_navigation_gorouter_example/core/theme/theme.dart';
 
 
 
@@ -20,7 +21,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: goRouter,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.indigo),
+      theme: theme(),
+      darkTheme: darkTheme(),
+      themeMode: ThemeMode.system,
     );
   }
 }
