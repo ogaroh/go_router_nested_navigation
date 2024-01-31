@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:nested_navigation_gorouter_example/core/router/router.dart' show goRouter;
-import 'package:nested_navigation_gorouter_example/core/theme/theme.dart' show darkTheme, theme;
-
-
+import 'package:nested_navigation_gorouter_example/core/router/router.dart'
+    show goRouter;
+import 'package:nested_navigation_gorouter_example/core/theme/theme.dart'
+    show darkTheme, theme;
 
 void main() {
   // turn off the # in the URLs on the web
@@ -27,9 +27,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
